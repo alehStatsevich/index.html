@@ -1,0 +1,440 @@
+ body {
+     margin: 0;
+     font-family:"Montserrat" ;
+     font-size: 15px;
+     line-height: 1.6;
+ }
+ .header {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 4535px;
+
+    z-index: 22;
+ }
+ .conteiner {
+    background-color:#eff0f2;
+    width: 100%;
+    height: 805px;
+ }
+  .logo {
+    font-size: 17px;
+    font-family: "Montserrat";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.647;
+    text-align: center;
+    text-shadow: 0px 0px 2px rgba(21, 21, 22, 0.75);
+    position: absolute;
+    left: 170px;
+    top: 75px;
+    z-index: 21;
+  }
+  .conteiner1 {
+    border-width: 5.5px;
+    border-color: rgb(23, 15, 28);
+    border-style: solid;
+    position: absolute;
+    left: 150px;
+    top: 64px;
+    width: 101.92px;
+    height: 34.92px;
+  }
+  .shopno {
+    font-size: 45px;
+    font-family: "Montserrat";
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.622;
+    text-align: center;
+    text-shadow: 0px 9px 10px rgba(0, 0, 0, 0.24);
+    position: absolute;
+    left: 409px;
+    top: 327px;
+    z-index: 18;
+  }
+  .theme {
+    font-size: 45px;
+    font-family: "Montserrat";
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.622;
+    text-align: center;
+    text-shadow: 0px 9px 10px rgba(0, 0, 0, 0.24);
+    position: absolute;
+    left: 230px;
+    top: 385px;
+    z-index: 23;
+  }
+  .contact {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.749);
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    left:44px;
+    top: 12px;
+    width: 140px;
+    height: 20px;
+    z-index: 27;
+  }
+  .button {
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 2px;
+    opacity: 0.502;
+    cursor: pointer;
+    position: absolute;
+    left: 580px;
+    top: 557px;
+    width: 228px;
+    height: 49px;
+    z-index: 26;
+  }
+  .About_Us {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 5335px;
+    z-index: 48;
+  }
+  .title {
+    position: absolute;
+    left:0px;
+    top: 0px;
+    width: 100%;
+    height: 5335px;
+    z-index: 47;
+  }
+  .lorem {
+    font-size: 18px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.62);
+    text-transform: uppercase;
+    line-height: 1.556;
+    text-align: center;
+    position: absolute;
+    left: 413px;
+    top: 981px;
+    z-index: 46;
+  }
+  .about {
+    font-size: 38px;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.902);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.737;
+    position: absolute;
+    left: 550px;
+    top: 937px;
+    z-index: 45;
+  }
+  .great {
+    font-size: 17px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.749);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.647;
+    position: absolute;
+    left: 775px;
+    top: 1448px;
+    z-index: 41;
+  }
+  .visual {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgba(0, 0, 0, 0.741);
+    line-height: 1.75;
+    position: absolute;
+    left: 778px;
+    top: 1493px;
+    width: 469px;
+    height: 72px;
+    z-index: 40;
+  }
+  .works {
+    font-size: 20px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.749);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.4;
+    position: absolute;
+    left: 774.937px;
+    top: 1140.5px;
+    z-index: 39;
+  }
+  .approach {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgba(0, 0, 0, 0.741);
+    line-height: 1.75;
+    position: absolute;
+    left: 777.937px;
+    top: 1197px;
+    width: 474px;
+    height: 212px;
+    z-index: 38;
+  }
+  .img {
+    position: absolute;
+    left: 230px;
+    top: 1141px;
+    width: 392px;
+    height: 483px;
+    z-index: 37;
+  }
+  .conteiner2 {
+    background-color: #f8fafa;
+    left: 0px;
+    top: 800px;
+    width: 100%;
+    height: 985px;
+    z-index: 31;
+  } 
+  .conteiner3 {
+    background-color: #ffffff;
+    left: 0px;
+    top: 1785px;
+    width: 100%;
+    height: 1174px;
+    z-index: 55;
+  }
+  .ipsum {
+    font-size: 17px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.62);
+    text-transform: uppercase;
+    line-height: 1.647;
+    text-align: center;
+    position: absolute;
+    left: 413px;
+    top: 1957px;
+    z-index: 52;
+  }
+  .work {
+    font-size: 38px;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.902);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.737;
+    position: absolute;
+    left: 480px;
+    top: 1918px;
+    z-index: 51;
+  }
+  .wrapper {
+    display: grid;
+    position: absolute;
+    left: 110px;
+    grid-template-columns: 16px 16px 16px;
+    grid-column-gap: 370px;
+    grid-row-gap: 14px;
+    padding-top: 318px;
+  }
+  .conteiner4 { 
+    background-color: #f9fbfb;
+    left: 0px;
+    top: 1785px;
+    width: 100%;
+    height: 1374px;
+    z-index: 55;
+  }
+  .dolor {
+    font-size: 17px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.62);
+    text-transform: uppercase;
+    line-height: 1.647;
+    text-align: center;
+    position: absolute;
+    left: 413px;
+    top: 3099px;
+    z-index: 52;
+  }
+  .small {
+    font-size: 38px;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.902);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.737;
+    position: absolute;
+    left: 520px;
+    top: 3057px;
+    z-index: 51;
+  }
+  .wrapper2{
+    display: grid;
+    position: absolute;
+    left: 110px;
+    grid-template-columns: 16px 16px 16px;
+    grid-column-gap: 370px;
+    grid-row-gap: 14px;
+    padding-top: 280px;
+  }
+  .snow{
+    position: absolute;;
+    left: 0px;
+    width: 100%;
+    top: 0;
+    height: 707px;
+    z-index:201;
+  
+  }
+  .blok {
+    background-color: rgb(2, 22, 35);
+    opacity: 0.71;
+    box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.12);
+    position: absolute;
+    left: 50px;
+    top: 4437px;
+    width: 614px;
+    height: 460px;
+    z-index: 202;
+  }
+  
+  .name {
+    position: relative;
+    font-size: 15px;
+    font-family: "Raleway";
+    color: silver;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid silver;
+    background-color:rgb(2, 22, 35);
+    width: 530px;
+    height: 60px;
+    bottom: 0px;
+    left: 35px;
+  }
+  .subject {
+    position: relative;
+    font-size: 15px;
+    font-family: "Raleway";
+    color: silver;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid silver;
+    background-color:rgb(2, 22, 35);
+    width: 530px;
+    height: 55px;
+    left: 35px;
+  }
+  .email {
+    position: relative;
+    font-size: 15px;
+    font-family: "Raleway";
+    color: silver;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid silver;
+    background-color:rgb(2, 22, 35);
+    width: 530px;
+    height: 60px;
+    left: 35px;
+  }
+  .message {
+    position: relative;
+    font-size: 15px;
+    font-family: "Raleway";
+    color: silver;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid silver;
+    background-color:rgb(2, 22, 35);
+    width: 530px;
+    height: 60px;
+    left: 35px;
+  }
+  .send {
+    width: 248px;
+    height: 53px;
+    margin: 30px;
+    margin-top: 50px;
+    background-color: #6eeee4;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+   .send:hover {
+     text-transform: none;
+  background: red;
+  color: #ffffff;
+  }
+
+  .blok2 {
+    background-color: rgb(2, 22, 35);
+    opacity: 0.71;
+    box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.12);
+    position: absolute;
+    left: 692px;
+    top: 4437px;
+    width: 614px;
+    height: 460px;
+    z-index: 202;
+  }
+  .adres {
+    margin: 30px;
+    color: silver;
+    font-size: 15px;
+    font-family: "Raleway";
+  }
+  .web {
+    margin: 30px;
+    color: silver;
+    font-size: 15px;
+    font-family: "Raleway";
+  }
+   .maps{
+     width: 520px;
+     height: 220px;
+     margin-left: 45px;
+     margin-top: -20px;
+   }
+   .blok3 {
+     position: absolute;
+     width: 1440px;
+     height: 315px;
+     background-color: #262b2e;
+     top: 5047px;
+     left: 0px;
+
+   }
+   .fol {
+     position: relative;
+     text-align: center;
+     top: 50px;
+     color: silver;
+     font-size: 15px;
+     font-family: "Raleway";
+     left: -50px;
+   }
+   .ikons {
+     position: relative;
+     display: inline-block;
+     top: 100px;
+     left: 575px;
+   }
+
+
+
+
+
+
+
+
+
+
+  
