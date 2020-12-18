@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoM</title>
+</head>
+<body>
+                            <p>  Атрибуты для событий
+                                   События мыши
+Атрибут    	 Описание
+onclick  	 Произведен клик кнопкой мыши на элементе управления. Событие возникает после того, как кнопка мыши была отпущена.
+onmousedown	 Нажата кнопка мыши.
+onmouseup	 Отжата кнопка мыши.
+ondblclick 	 Двойной щелчок.
+onmousemove	 Указатель мыши движется внутри области отображения элемента.
+onmouseout	 Указатель мыши вышел из области отображения элемента.
+onmouseover	 Указатель мыши находится внутри области отображения элемента.
+                      События клавиатуры
+Атрибут 	Описание
+onkeydown	Нажата кнопки на клавиатуре.
+onkeypress	Кнопка на клавиатуре нажата и не отпускается дольше, чем интервал повторения. Длительность интервала повторения является системным параметром и зависит от настроек операционной системы пользователя.
+onkeyup	    Отпущена ранее нажатая кнопка.
+                    События форм и элементов страницы
+Атрибут	    Описание
+onchange	Элемент теряет фокус ввода, а содержимое элемента изменилось за время, пока элемент был в фокусе.
+onselect	Какая-то часть текста внутри элемента становится выделенной.
+onsubmit	В форме нажата кнопка "Отправить", но отправка формы на сервер еще не производилась.
+                  События форм и элементов страницы
+Атрибут	    Описание
+onblur	    Элемент управления теряет фокус ввода, т.е. курсор переходит к другому элементу.
+onfocus	    Отображаемый элемент получил фокуса ввода. Для текстовых полей это событие означает, что курсор уже находится в данном элементе.
+onload   	Завершена загрузка страницы.
+onunload	Производится выход из документа (закрытие или перенаправление страницы на другой адрес).
+onscroll	Срабатывает при прокрутке элемента.</p>
+   <!-- <button onclick="alert('Привет!')">Нажми на меня</button> -->
+   <!--<button onmouseover="alert('hello')">Наведи на меня</button>
+       <button ondblclick="alert('hello')">Двойной щелчек по мне !</button><br>
+       <button onmouseout="alert('hello')">Наведи на меня мышь-а потом убери!</button><br>-->
+     <!-- Задача.1 Повторите поведение кнопки по нажатию на нее (она меняет текст в инпуте):-->
+<!--<button onclick="buttonClick()">Нажми на меня</button>
+<input type="text" id="input" value="hello"><br>-->
+<!--задача 2
+<input type="text" id="input" value="hello">
+<button onclick="buttonClick1()">Нажми на меня!</button><br>-->
+<!--задача 3
+<input type="text" id="input" value="hello">
+<button onclick="buttonClick2()">Нажми на меня!</button>-->
+<!--задача 4
+<button onclick="buttonClick()">нажми на меня!</button>
+<span id="elem">при нажатии на кнопку текст поменяется</span>-->
+<!--задача 5 с обезьянками
+<button onclick="go()">нажми на меня!</button><br><br>
+<img src="img/1.jpg"  id="test" onclick="go()">-->
+<!--Работа с this-->
+<!--задача 8
+<input type="text" value="нажми на меня!" onfocus="go(this)">-->
+<!--задача 9
+<input type="text" value="нажми на меня!" onfocus="go(this)"-->
+<!--Задача 11
+<input type="submit" onclick="go(this)" value="нажми на меня!">-->
+<!--задача 12
+<p>это input type="submit"</p>
+<input type="submit" onclick="go(this)" value="нажми на меня!">-->
+<!--работа с css-->
+<!--задача14
+<input type="text" id="input" value="ку-ку">
+<button onclick="go()">нажми на меня</button>-->
+<!--задача 15
+<input type="text" id="test" value="hello">
+<button onclick="go()">нажми на меня</button>
+<button onclick="notGo()">нажми потом на меня</button>-->
+<!--задача 16
+<input type='text' value='hello' id='test'><br><br>
+<button onclick="go()">нажми но меня</button> -->
+<!--задача 17
+    <p>input type='submit'</p>
+<input type="submit" onclick="block(this)" value="нажми на меня" id="block">
+<input type="submit" onclick="unblock('button')" value="нажми чтобы отблокировать"  style="display: none;" id="unblock">-->
+<!--задача 18
+<p> Кнопка считает кол-во нажатий по ней.</p>
+<input type="submit" onclick="go(this)" value="0">-->
+<!--задача 19
+<input type='text' value="ky ky" id="test">
+<button onclick="go()">нажми на меня</button>-->
+<!--задача 20
+<input type='text' value='ky ky' id='test' class="style">
+<button onclick="go()">нажми на меня</button>-->
+<!--задача 21
+<input type='text' value='привет!' id='test1'>
+<input type='text' value='пока!' id='test2'>
+<button onclick="go()">хлопотное дельце</button>-->
+<!--задача 22
+<p>по нажатию на кнопку появится квадрат числа</p>
+<input type="text" value="" placeholder="введите число" id="test">
+<input id="result" value="результат" disabled>
+<button onclick="go()">нажми на меня</button>-->
+<!--задача 23
+<input type="submit" onclick="go(this)" value="нажми на меня!">-->
+<!--задача 24-->
+<input type="text" value='' id='input'><br><br>
+<input type="submit" onclick="add('+')" value="я добавлю +"><br>
+<input type="submit" onclick="add('-')" value="я добавлю -"><br>
+ <input type="submit"onclick="add('/')" value="я довавлю /"><br>
+  <input type="submit" onclick="add('*')" value="я добавлю *"><br><br>
+  <input type="submit" onclick="add('1')" value="1"><br>
+  <input type="submit" onclick="add('2')" value="2"><br>
+  <input type="submit" onclick="add('3')" value="3"><br>
+  <input type="submit" onclick="add('4')" value="  4  "><br>
+  <input type="submit" onclick="add('5')" value="5"><br>
+  <input type="submit" onclick="add('6')" value="6"><br>
+  <input type="submit" onclick="add('7')" value="7"><br>
+  <input type="submit" onclick="add('8')" value="8"><br>
+  <input type="submit" onclick="add('9')" value="9"><br>
+  <input type="submit" onclick="add('0')" value="0"><br>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
