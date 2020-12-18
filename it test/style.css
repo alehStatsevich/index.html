@@ -1,0 +1,12 @@
+//задание 1.2.3
+#butt{
+    background-color: rgb(7, 204, 7);
+    border-color:  rgb(190, 4, 4);
+    padding: 10,10;
+    width: 100px;
+    height: 50px;
+
+}
+#search {
+    padding: 10,10;
+}
