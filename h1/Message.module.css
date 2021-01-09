@@ -1,0 +1,59 @@
+.imgStyle {
+    position: relative;
+    left: 20px;
+    top: 90px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.blokStyle {
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    width: 500px;
+    height:  200px;
+    background-color: rgb(117, 218, 35);
+    border-radius: 4px;
+}
+.blokMessage {
+    position: absolute;
+    left: 140px;
+    bottom: 10px;
+    width: 350px;
+    height: 180px;
+    background-color: rgb(10, 12, 10);
+    border-radius: 4px;
+}
+.blokMessage:before {
+     content: ' ';
+     z-index: 0;
+     width: 0;
+     height: 0;
+     position: absolute;
+     left:-27px;
+     bottom: 0px;
+     border: 20px solid transparent ;/*отвечает за радиус гипатенуза*/
+     border-right: 10px solid  rgb(10, 12, 10);/*длинна катета*/
+     border-bottom: 20px  solid  rgb(10, 12, 10);/* длинна катета*/
+    }
+.name {
+    position: absolute;
+    color: rgb(136, 92, 194);
+    font-size: 35px;
+    left: 30px;
+    top: -10px;
+}
+.message {
+    position: absolute;
+     color: rgb(157, 179, 157);
+     font-size: 30px;
+     left: 30px;
+     top: 50px;
+}
+.time {
+    position: absolute;
+    font-size: 30px;
+     color: rgb(195, 216, 10);
+     left: 250px;
+     top: 100px;
+}
